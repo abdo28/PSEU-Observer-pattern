@@ -3,6 +3,8 @@ public class BlogPost {
     private String Title;
     private String Body;
     private String PostDate;
+    private int ID;
+
 
     public String getUsername() {
         return Username;
@@ -44,7 +46,6 @@ public class BlogPost {
         this.ID = ID;
     }
 
-    private int ID;
 
     public BlogPost(String username, String title, String body, String postDate, int ID){
         this.Username=username;
